@@ -16,8 +16,7 @@ public class Business implements java.io.Serializable {
     String cluster = null;
     double latitude;
     double longitude;
-    String[] closest = new String[4];;
-    boolean step;
+    String[] closest = new String[4];
     
     public Business(String i, String n, String st, double lat, double lon) {
         id = i;
@@ -26,7 +25,6 @@ public class Business implements java.io.Serializable {
         latitude = lat;
         longitude = lon;
         
-        step = false;
     }
 
     public String getName() {
