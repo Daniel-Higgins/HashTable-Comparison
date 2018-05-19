@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package csc365a3;
+package src;
 
-import csc365a3.spanningTree.Graph;
-import csc365a3.spanningTree.Edge;
-import csc365a3.spanningTree.Vertex;
+import src.spanningTree.Graph;
+import src.spanningTree.Edge;
+import src.spanningTree.Vertex;
+
 
 import javafx.stage.Stage;
 import java.io.BufferedReader;
@@ -28,6 +29,7 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -308,8 +310,7 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_displayMapActionPerformed
 
     private void graphButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_graphButtonActionPerformed
-        // no action performed yet.
-
+        
     }//GEN-LAST:event_graphButtonActionPerformed
 
     void startup() throws FileNotFoundException, Exception {
