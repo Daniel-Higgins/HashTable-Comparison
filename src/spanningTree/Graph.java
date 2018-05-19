@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package csc365a3.spanningTree;
+package src.spanningTree;
 
 import java.util.*;
-import csc365a3.GUI;
-import csc365a3.HashTable;
+import src.GUI;
+import src.HashTable;
 /**
  *
  * @author danielhiggins
